@@ -21,8 +21,7 @@ Route::get('/', function () {
 
 });
 
-#pizza view using PizzaController
+#pizza view/create using PizzaController
 Route::get('/pizzas', [PizzaController::class, 'index']);
-
-#wildcards using PizzaController
+Route::get('/pizzas/create', [PizzaController::class, 'create']);
 Route::get('/pizzas/{id}', [PizzaController::class, 'show']);
