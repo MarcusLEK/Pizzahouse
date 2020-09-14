@@ -7,9 +7,10 @@
 - XAMPP ver: 7.4.9-0
 
 This is a simple pizza ordering application developed using Laravel framework with XAMPP. To install and run this project, the following will be required:
-- Composer (To install laravel framework)
-- Nodejs (To install any dependencies for the laravel project)
-- XAMPP (Database & Web Server)
+
+1. Composer (To install laravel framework)
+2. Nodejs (To install any dependencies for the laravel project)
+3. XAMPP (Database & Web Server)
 
 ## About Laravel
 
