@@ -1,4 +1,4 @@
-@extends('layouts.layout')
+@extends('layouts.app')
 
 @section('content')
 <div class="wrapper pizza-details">
@@ -11,7 +11,7 @@
             <li>{{ $topping }}</li>
         @endforeach
     </ul>
-    <form action="/pizzas/{{ $pizza->id }}" method="POST">
+    <form action="{{ route('pizzas.destroy', $pizza->id) }}" method="POST">
         @csrf
         @method('DELETE')
         <button>Complete Order</button>
